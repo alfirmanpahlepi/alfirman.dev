@@ -37,3 +37,32 @@ export interface CardProjectProps {
   repo: string;
   link: string;
 }
+
+export interface ExperienceProps {
+  experience: {
+    position: string;
+    company: string;
+    start_date: string;
+    end_date: string;
+    is_active: boolean;
+  }[];
+}
+
+export interface HeroProps {
+  name: string;
+  headline: string;
+  profile_picture: string;
+  description: string;
+}
+
+// export interface HomeData {
+//   name: string;
+//   headline: string;
+//   favourite_icon: FavouriteTech[];
+//   profile_picture: string;
+//   description: string;
+//   about: string;
+//   experience: ExperienceProps[];
+//   email: string;
+//   phone: string;
+// }

@@ -1,6 +1,6 @@
 import AnimationContainer from "../AnimationContainer";
 
-const ContactMe = () => {
+const ContactMe = ({ phone, email }: { phone: string; email: string }) => {
   return (
     <AnimationContainer customClassName="w-full">
       <h2 className="font-bold text-2xl md:text-2xl tracking-tight mb-8 text-white text-center lg:text-start">
@@ -19,12 +19,12 @@ const ContactMe = () => {
               <h6 className="font-bold text-1xl tracking-tight text-white text-start">
                 Email
               </h6>
-              <p className="text-base mt-2 text-gray-400">alfirman.pahlepi@gmail.com</p>
+              <p className="text-base mt-2 text-gray-400">{email}</p>
             </div>
           </a>
 
           <a
-            href="https://wa.me/6289673757429"
+            href={`https://wa.me/${phone}`}
             target="_blank"
             rel="noreferrer"
             className="w-full"
@@ -33,14 +33,14 @@ const ContactMe = () => {
               <h6 className="font-bold text-1xl tracking-tight text-white text-start">
                 Phone
               </h6>
-              <p className="text-base mt-2 text-gray-400">+62 896 7375 7429</p>
+              <p className="text-base mt-2 text-gray-400">{phone}</p>
             </div>
           </a>
         </div>
 
         <div className="w-full flex justify-center items-center flex-col">
           <form
-            action="https://formsubmit.co/alfirman.pahlepi@gmail.com"
+            action={`https://formsubmit.co/${email}`}
             method="POST"
             className="w-full space-y-4"
           >
