@@ -55,6 +55,12 @@ export interface HeroProps {
   description: string;
 }
 
+export interface SkillsProps {
+  paragrap1: string;
+  paragrap2: string;
+  skills: { title: string; techs: string[] }[];
+}
+
 // export interface HomeData {
 //   name: string;
 //   headline: string;

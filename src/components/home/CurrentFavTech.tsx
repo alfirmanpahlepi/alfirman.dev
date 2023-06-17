@@ -2,7 +2,6 @@
 
 import { motion } from "framer-motion";
 import AnimationContainer from "../AnimationContainer";
-// import AllFavTechs from "../icons/AllFavTechs";
 import TypeScript from "../ui/icons/TypeScript";
 import React from "../ui/icons/React";
 import Next from "../ui/icons/Next";

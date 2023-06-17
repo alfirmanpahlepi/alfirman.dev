@@ -5,7 +5,7 @@ import CurrentTimeLineExp from "@/components/home/CurrentTimeLineExp";
 import Hero from "@/components/home/Hero";
 import Data from "@/content/home.json";
 
-export default function Home() {
+export default function HomePage() {
   return (
     <div className="w-full lg:min-w-xs lg:max-w-screen-md flex flex-col justify-center items-center lg:items-start lg:mx-auto mt-8 pb-16 px-5">
       <Hero

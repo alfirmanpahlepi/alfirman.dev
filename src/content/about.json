@@ -1,0 +1,69 @@
+{
+  "aboutParagraph1": "As a professional Front-End Developer with two years of experience, I have developed a strong skill set in front-end technologies and a keen eye for detail. I am proficient in HTML, CSS, and JavaScript, and have worked with modern frameworks such as React. Throughout my career, I have collaborated closely with designers to create visually appealing and user-friendly interfaces, ensuring seamless experiences across different devices. I am a proactive problem solver, adept at managing multiple tasks and deadlines, and I thrive in collaborative environments.",
+  "aboutParagraph2": "During my two years of experience as a Front-End Developer, I have honed my ability to translate design concepts into fully functional websites and applications. I prioritize clean code and maintainable practices, always striving to optimize performance and adhere to industry standards. I am an effective communicator and enjoy working in cross-functional teams, where I can contribute my technical expertise and collaborate to deliver high-quality projects. With a passion for continuous learning, I stay updated with the latest trends and technologies in front-end development, constantly seeking to enhance my skills and deliver exceptional results.",
+  "skillsParagraph1": "I possess advanced proficiency in React, Next.js, TypeScript, Tailwind CSS, Node.js, and Express, making me a versatile and skilled Front-End Developer. With React, I have built interactive and dynamic user interfaces, leveraging its component-based architecture and virtual DOM for efficient rendering and seamless state management. I am experienced in developing server-side rendered applications using Next.js, harnessing its powerful features such as server-side rendering, static site generation, and API routes. Additionally, my strong knowledge of TypeScript allows me to write robust, scalable, and type-safe code, ensuring fewer errors and better code maintainability.",
+  "skillsParagraph2": "In terms of styling, I have a deep understanding of Tailwind CSS, a utility-first CSS framework. I leverage its extensive set of pre-built components and responsive design utilities to rapidly create visually appealing and responsive interfaces. Furthermore, I have a solid grasp of Node.js and Express, enabling me to develop back-end APIs and handle server-side logic effectively. I have worked on various projects, implementing RESTful APIs, authentication systems, and database integrations with these technologies.",
+  "experience": [
+    {
+      "position": "Frontend Developer",
+      "company": "PT Kode Inovasi Teknologi (CODR)",
+      "start_date": "Feb 2023",
+      "end_date": "Currently",
+      "is_active": true
+    },
+    {
+      "position": "Frontend Developer",
+      "company": "Erloom Digital Venture",
+      "start_date": "Jan 2023",
+      "end_date": "Jan 2022",
+      "is_active": false
+    },
+    {
+      "position": "Frontend Developer",
+      "company": "PT Permata Indonesia",
+      "start_date": "Jan 2023",
+      "end_date": "Jan 2022",
+      "is_active": false
+    }
+  ],
+  "skills": [
+    {
+      "title": "Languages",
+      "techs": ["HTML", "CSS", "JavaScript", "TypeScript"]
+    },
+    {
+      "title": "Frameworks and libraries",
+      "techs": ["React", "Next.js", "React Native"]
+    },
+    {
+      "title": "JavaScript libraries",
+      "techs": [
+        "Redux Toolkit",
+        "TanStack Query",
+        "react-router-dom",
+        "Jest",
+        "Testing Library"
+      ]
+    },
+    {
+      "title": "Preprocessors, css style, component and motion libraries",
+      "techs": [
+        "Sass",
+        "Bootstrap",
+        "Tailwind",
+        "ChakraUI",
+        "MaterialUI",
+        "Framer Motion"
+      ]
+    },
+    {
+      "title": "Backend stack",
+      "techs": ["Node.js", "Express.js", "MongoDB", "Mongoose", "Firebase"]
+    },
+    {
+      "title": "Softwares and tools",
+      "techs": ["VS Code", "Jira", "Trello", "Git", "GitHub", "ESLint", "Husky"]
+    }
+  ],
+  "interest": "I am deeply fascinated by the React ecosystem and have a strong passion for learning and exploring its intricacies. React offers a powerful and efficient way to build dynamic and interactive user interfaces, making it a cornerstone of modern web development. The extensive range of tools, libraries, and frameworks within the React ecosystem provides endless opportunities for enhancing development workflows, improving performance, and creating delightful user experiences. From popular state management libraries like Redux to versatile frameworks like Next.js for server-side rendering, the React ecosystem offers a wealth of resources to expand my skill set and tackle complex challenges. I am excited to dive deeper into the React ecosystem, continuously expanding my knowledge and leveraging its capabilities to create innovative and impactful web applications."
+}
