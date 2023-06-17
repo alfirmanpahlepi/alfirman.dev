@@ -64,7 +64,7 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col space-y-4">
-          <ExternalLink href="https://github.com/jeandv">
+          <ExternalLink href="https://github.com/alfirmanpahlepi">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
@@ -80,7 +80,7 @@ const Footer = () => {
             GitHub
           </ExternalLink>
 
-          <ExternalLink href="https://linkedin.com/in/jeandv">
+          <ExternalLink href="https://www.linkedin.com/in/alfirmanpahlepi/">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
@@ -97,7 +97,7 @@ const Footer = () => {
             LinkedIn
           </ExternalLink>
 
-          <ExternalLink href="https://twitter.com/jeandv_">
+          <ExternalLink href="https://twitter.com/PahlepiAlfirman">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -148,7 +148,7 @@ const Footer = () => {
             Contact
           </Link>
 
-          <ExternalLink href="https://rxresu.me/jeandv/cv-jean-rondon">
+          <ExternalLink href="#">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
