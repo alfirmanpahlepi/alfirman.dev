@@ -42,6 +42,7 @@ export interface ExperienceProps {
   experience: {
     position: string;
     company: string;
+    description: string;
     start_date: string;
     end_date: string;
     is_active: boolean;

@@ -9,6 +9,7 @@
     {
       "position": "Frontend Developer",
       "company": "PT Kode Inovasi Teknologi (CODR)",
+      "description": "I have played a pivotal role in the development of Finpoint.id, a web application focused on reconciliation to identify price discrepancies between banks/merchants and principals, built using React. In my position, I have been responsible for designing and implementing dynamic and user-friendly interfaces, ensuring a seamless and efficient reconciliation process. I have contributed to the creation of visually appealing and responsive interfaces that prioritize user experience. Collaborating closely with a talented team of designers, backend developers, and data analysts, I have been instrumental in integrating robust functionality for reconciling and comparing prices. With meticulous attention to detail and a passion for delivering high-quality solutions, I have played a vital role in the success of CODR and the Finpoint.id platform.",
       "start_date": "Feb 2023",
       "end_date": "Currently",
       "is_active": true
@@ -16,6 +17,7 @@
     {
       "position": "Frontend Developer",
       "company": "Erloom Digital Venture",
+      "description": "I have been instrumental in the development of Verica.id, a cutting-edge web application that offers business digital signature capabilities with Certificate Authorization, built using React. In this role, I have been responsible for designing and implementing highly interactive and intuitive user interfaces, ensuring a seamless and secure digital signing experience. Leveraging my expertise in frontend technologies, including HTML, CSS, and JavaScript, I have contributed to the creation of visually appealing and responsive interfaces that adhere to industry best practices. Collaborating closely with a talented team of designers, backend developers, and security experts, I have played a key role in integrating secure Certificate Authorization protocols and optimizing performance. With a keen eye for detail and a passion for delivering top-notch solutions, I have significantly contributed to the success of Erloom Digital Venture and the Verica.id platform.",
       "start_date": "Jan 2023",
       "end_date": "Jan 2022",
       "is_active": false
@@ -23,6 +25,7 @@
     {
       "position": "Frontend Developer",
       "company": "PT Permata Indonesia",
+      "description": "I have been actively involved in the development of Skills.id, an educational e-commerce web application. In this role, I have played a crucial part in designing and implementing user-friendly interfaces, ensuring a seamless user experience. Utilizing my expertise in frontend technologies such as HTML, CSS, and JavaScript, along with modern frameworks like React, I have successfully contributed to the creation of visually appealing and responsive web pages. Additionally, I have collaborated closely with cross-functional teams, including designers and backend developers, to integrate robust functionalities and optimize performance. With a strong attention to detail and a passion for delivering high-quality solutions, I have consistently contributed to the success of PT Permata Indonesia and Skills.id.",
       "start_date": "Jan 2023",
       "end_date": "Jan 2022",
       "is_active": false

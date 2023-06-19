@@ -46,6 +46,7 @@ const CurrentTimeLineExp = ({ experience }: ExperienceProps) => {
                 <br />
                 {exp.company} · {exp.start_date} - {exp.end_date}
               </p>
+              <p className="text-gray-400 font-light">{exp.description}</p>
             </div>
           </div>
         );
