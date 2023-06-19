@@ -36,7 +36,7 @@ const Hero = ({ name, headline, description, profile_picture }: HeroProps) => {
 
       <AnimationContainer customClassName="w-[80px] sm:w-[176px] relative mb-6 lg:mb-0">
         <Image
-          alt="Jean Rondón"
+          alt="Alfirman Pahlepi"
           height={176}
           width={176}
           src={profile_picture}

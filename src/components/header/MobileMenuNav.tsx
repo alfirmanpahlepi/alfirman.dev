@@ -79,6 +79,7 @@ const MobileMenuNav = () => {
       </button>
       {isMenuMounted && (
         <ul
+          data-testid="menu-links"
           className={cn(
             styles.menu,
             "flex flex-col items-start justify-center absolute right-0 backdrop-blur-sm bg-black/20 text-end p-5 rounded-br-2xl mr-5",

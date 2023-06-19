@@ -33,6 +33,7 @@ const CurrentFavTech = ({ icons }: { icons: string[] }) => {
               key={i}
               style={{ opacity: 1, transform: "none" }}
               variants={animation}
+              data-testid={`icon-${icon}`}
             >
               {getIcon(icon)}
             </motion.li>

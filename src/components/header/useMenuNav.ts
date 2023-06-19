@@ -13,9 +13,9 @@ const useMenuNav = () => {
   );
 
   const toggleMenu = () => {
-    if (isMenuOpen) setIsMenuOpen(false);
-    else setIsMenuOpen(true);
+    setIsMenuOpen((prevState) => !prevState);
   };
+
   return {
     isMenuOpen,
     toggleMenu,
