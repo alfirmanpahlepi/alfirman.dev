@@ -1,9 +1,15 @@
+import { Metadata } from "next";
 import TitlePage from "@/components/TitlePage";
 import About from "@/components/about/About";
 import CurrentTimeLineExp from "@/components/about/CurrentTimeLineExp";
 import Interests from "@/components/about/Interests";
 import Skills from "@/components/about/Skills";
 import Data from "@/content/about.json";
+
+export const metadata: Metadata = {
+  title: 'About',
+  description: 'Frontend Developer',
+};
 
 export default function AboutPage() {
   return (

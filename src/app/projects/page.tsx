@@ -1,4 +1,10 @@
+import { Metadata } from "next";
 import TitlePage from "@/components/TitlePage";
+
+export const metadata: Metadata = {
+  title: "Project",
+  description: "My past project since i work as Frontend Developer",
+};
 
 export default function ProjectPage() {
   return (

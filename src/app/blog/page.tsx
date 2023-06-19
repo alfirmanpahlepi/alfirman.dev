@@ -1,4 +1,10 @@
+import { Metadata } from "next";
 import TitlePage from "@/components/TitlePage";
+
+export const metadata: Metadata = {
+  title: "Blog",
+  description: "blog",
+};
 
 export default function BlogPage() {
   return (
