@@ -12,18 +12,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Setup Node.js 14.x
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with:
-          node-version: '14.x'
+          node-version: 18
 
       - name: Install locked dependencies
         run: yarn install --frozen-lockfile
 
       - name: Cache dependencies
-        uses: actions/cache@v1
+        uses: actions/cache@v3
         id: cache-deps
         with:
           path: '.'
@@ -35,16 +35,16 @@ jobs:
     needs: install-deps
     steps:
       - name: Restore cached dependencies
-        uses: actions/cache@v1
+        uses: actions/cache@v3
         id: restore-deps
         with:
           path: '.'
           key: ${{ github.sha }}
 
       - name: Setup Node.js 14.x
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with:
-          node-version: '14.x'
+          node-version: 18
 
       - name: Lint files
         run: yarn run lint
@@ -57,16 +57,16 @@ jobs:
     needs: install-deps
     steps:
       - name: Restore cached dependencies
-        uses: actions/cache@v1
+        uses: actions/cache@v3
         id: restore-deps
         with:
           path: '.'
           key: ${{ github.sha }}
 
       - name: Setup Node.js 14.x
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with:
-          node-version: '14.x'
+          node-version: 18
 
       - name: Perform type checking
         run: yarn run check-types
@@ -79,16 +79,16 @@ jobs:
     needs: install-deps
     steps:
       - name: Restore cached dependencies
-        uses: actions/cache@v1
+        uses: actions/cache@v3
         id: restore-deps
         with:
           path: '.'
           key: ${{ github.sha }}
 
       - name: Setup Node.js 14.x
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with:
-          node-version: '14.x'
+          node-version: 18
 
       - name: Run Jest
         run: yarn test
