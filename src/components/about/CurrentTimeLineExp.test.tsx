@@ -6,6 +6,7 @@ import CurrentTimeLineExp from "./CurrentTimeLineExp";
 const experienceData = [
   {
     position: "Software Engineer",
+    description: "desc",
     company: "ABC Company",
     start_date: "2020-01-01",
     end_date: "2021-12-31",
@@ -13,6 +14,7 @@ const experienceData = [
   },
   {
     position: "Frontend Developer",
+    description: "desc",
     company: "XYZ Corporation",
     start_date: "2018-05-15",
     end_date: "2019-12-31",
