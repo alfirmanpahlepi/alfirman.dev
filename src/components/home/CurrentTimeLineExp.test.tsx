@@ -6,6 +6,7 @@ const experienceData = [
   {
     position: "Software Engineer",
     company: "ABC Company",
+    description: "desc",
     start_date: "2020-01-01",
     end_date: "2021-12-31",
     is_active: true,
@@ -13,6 +14,7 @@ const experienceData = [
   {
     position: "Frontend Developer",
     company: "XYZ Corporation",
+    description: "desc",
     start_date: "2018-05-15",
     end_date: "2019-12-31",
     is_active: false,
