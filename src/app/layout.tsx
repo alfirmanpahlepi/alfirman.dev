@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   },
   icons: {
     shortcut: "/favicon.ico",
-  }
+  },
 };
 
 export default function RootLayout({
@@ -51,6 +51,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="apple-touch-icon" href="/icon.png"></link>
+        <meta name="theme-color" content="#fff" />
+      </head>
       <body className="bg-gray-900 transition ease">
         <Header />
         <main className="min-w-xs max-w-screen-md flex flex-col justify-center items-center mx-auto">
