@@ -1,0 +1,94 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    types: [opened, synchronize]
+
+jobs:
+  install-deps:
+    name: Install dependencies
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js 18
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install locked dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Cache dependencies
+        uses: actions/cache@v3
+        id: cache-deps
+        with:
+          path: '.'
+          key: ${{ github.sha }}
+
+  lint:
+    name: ESLint
+    runs-on: ubuntu-latest
+    needs: install-deps
+    steps:
+      - name: Restore cached dependencies
+        uses: actions/cache@v3
+        id: restore-deps
+        with:
+          path: '.'
+          key: ${{ github.sha }}
+
+      - name: Setup Node.js 18
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Lint files
+        run: yarn run lint
+        env:
+          CI: true
+
+  check-types:
+    name: Type check
+    runs-on: ubuntu-latest
+    needs: install-deps
+    steps:
+      - name: Restore cached dependencies
+        uses: actions/cache@v3
+        id: restore-deps
+        with:
+          path: '.'
+          key: ${{ github.sha }}
+
+      - name: Setup Node.js 18
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Perform type checking
+        run: yarn run check-types
+        env:
+          CI: true
+
+  test:
+    name: Unit and integration tests
+    runs-on: ubuntu-latest
+    needs: install-deps
+    steps:
+      - name: Restore cached dependencies
+        uses: actions/cache@v3
+        id: restore-deps
+        with:
+          path: '.'
+          key: ${{ github.sha }}
+
+      - name: Setup Node.js 18
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Run Jest
+        run: yarn test
