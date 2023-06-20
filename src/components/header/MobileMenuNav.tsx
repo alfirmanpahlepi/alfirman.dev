@@ -68,6 +68,7 @@ const MobileMenuNav = () => {
   return (
     <>
       <button
+        data-testid="mobile-menu-nav"
         className={cn(styles.burger, "visible lg:hidden")}
         aria-label="Toggle menu"
         type="button"
