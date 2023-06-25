@@ -5,10 +5,11 @@ import CurrentTimeLineExp from "@/components/about/CurrentTimeLineExp";
 import Interests from "@/components/about/Interests";
 import Skills from "@/components/about/Skills";
 import Data from "@/content/about.json";
+import ContactMe from "@/components/about/ContactMe";
 
 export const metadata: Metadata = {
-  title: 'About',
-  description: 'Frontend Developer',
+  title: "About",
+  description: "Frontend Developer",
 };
 
 export default function AboutPage() {
@@ -31,6 +32,8 @@ export default function AboutPage() {
         />
 
         <Interests interest={Data.interest} />
+
+        <ContactMe email={Data.email} phone={Data.phone} />
       </div>
     </div>
   );

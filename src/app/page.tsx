@@ -1,7 +1,7 @@
 import AboutMe from "@/components/home/AboutMe";
-import ContactMe from "@/components/home/ContactMe";
+// import ContactMe from "@/components/home/ContactMe";
 import CurrentFavTech from "@/components/home/CurrentFavTech";
-import CurrentTimeLineExp from "@/components/home/CurrentTimeLineExp";
+// import CurrentTimeLineExp from "@/components/home/CurrentTimeLineExp";
 import Hero from "@/components/home/Hero";
 import Data from "@/content/home.json";
 
@@ -20,13 +20,13 @@ export default function HomePage() {
       <div className="w-full flex flex-col items-start">
         <AboutMe about={Data.about} />
 
-        <CurrentTimeLineExp experience={Data.experience} />
+        {/* <CurrentTimeLineExp experience={Data.experience} /> */}
 
         {/* <FavProjects /> */}
 
         {/* <ProcessWork /> */}
 
-        <ContactMe email={Data.email} phone={Data.phone} />
+        {/* <ContactMe email={Data.email} phone={Data.phone} /> */}
       </div>
     </div>
   );
